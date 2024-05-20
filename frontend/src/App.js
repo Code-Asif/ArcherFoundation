@@ -1,12 +1,14 @@
 import './App.css';
 import Footer from './Components/Footer';
-import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import NAVBAR from './Components/NAVBAR';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <NAVBAR/>
       <h1>Archer Foundation</h1>
+      <Home/>
       <Footer/>
     </div>
   );
