@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Code-Asif/ArcherFoundation/static/css/main.42f7e9fb.css",
+    "main.js": "/Code-Asif/ArcherFoundation/static/js/main.12af2a4a.js",
+    "static/js/453.8ab44547.chunk.js": "/Code-Asif/ArcherFoundation/static/js/453.8ab44547.chunk.js",
+    "index.html": "/Code-Asif/ArcherFoundation/index.html",
+    "main.42f7e9fb.css.map": "/Code-Asif/ArcherFoundation/static/css/main.42f7e9fb.css.map",
+    "main.12af2a4a.js.map": "/Code-Asif/ArcherFoundation/static/js/main.12af2a4a.js.map",
+    "453.8ab44547.chunk.js.map": "/Code-Asif/ArcherFoundation/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42f7e9fb.css",
+    "static/js/main.12af2a4a.js"
+  ]
+}
