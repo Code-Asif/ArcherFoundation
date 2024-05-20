@@ -1,51 +1,3 @@
-/* Footer */
-.footer {
-  background-color: #fffaf5;
-  margin-top: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.footer > div:nth-child(1) {
-  display: flex;
-  width: 90%;
-  margin: auto;
-  margin-bottom: 50px;
-
-  justify-content: space-around;
-}
-
-.footer > div:nth-child(1) > div {
-  width: 100%;
-}
-
-#line2 {
-  width: 2px;
-  background-color: rgb(28, 28, 28);
-  margin-left: 70px;
-  margin-right: 70px;
-  transform: rotate(10deg);
-}
-
-.footer > div:nth-child(1) > div:nth-child(3) > div {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: solid 1px;
-  border-color: lightgray;
-}
-
-.footer > div:nth-child(2) {
-  display: flex;
-  width: 90%;
-  gap: 20px;
-  margin: auto;
-  border-top: solid 1px;
-  border-color: lightgray;
-  justify-content: space-between;
-}
-
-/*------> footer <------*/
-
 /*------> media queries <------*/
 
 html {
@@ -124,7 +76,7 @@ html {
 @media screen and (min-width: 200px) and (max-width: 770px) {
     .nav > div:nth-child(1) {
         display: none; /* Hide the first div (logo) */
-    }
+      }
 
     .nav > div:nth-child(2) {
         width: 100%; /* Expand the second div (links) */
@@ -141,6 +93,9 @@ html {
 
 /* Navbar */
 
+.Ancher{
+  margin-right: 1rem;
+}
 #user {
   width: 80%;
   padding: 20px;
@@ -157,7 +112,7 @@ html {
 
 .nav {
   width: 100%;
-  display: flex;
+  display: sticky;
   justify-content: space-between;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
@@ -187,7 +142,7 @@ html {
 .nav > div:nth-child(2) {
   width: 40%;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   gap: 10px;
 }
 
@@ -202,18 +157,145 @@ html {
 }
 
 .nav button {
-  width: 120px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
+  margin: .1rem;
   border: none;
+  border-radius: 50%;
   color: white;
   font-family: "Poppins", sans-serif;
   background-color: black;
-  font-size: 18px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
 .nav button:hover {
-  background-color: white;
-  color: black;
+  background-color: rgb(180, 26, 169);
+  color: rgb(8, 8, 8);
   border: solid 0.5px;
+}
+
+/* Stats */
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.stats-card {
+  width: 300px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.stats-image {
+  width: 80px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.stats-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.stats-value sup {
+  font-size: 1.2rem;
+  vertical-align: super;
+}
+
+.stats-divider {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.stats-description {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #fffaf5;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer > div:nth-child(1) {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 50px;
+
+  justify-content: space-around;
+}
+
+.footer > div:nth-child(1) > div {
+  width: 100%;
+}
+
+#line2 {
+  width: 2px;
+  background-color: rgb(28, 28, 28);
+  margin-left: 70px;
+  margin-right: 70px;
+  transform: rotate(10deg);
+}
+
+.footer > div:nth-child(1) > div:nth-child(3) > div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px;
+  border-color: lightgray;
+}
+
+.footer > div:nth-child(2) {
+  display: flex;
+  width: 90%;
+  gap: 20px;
+  margin: auto;
+  border-top: solid 1px;
+  border-color: lightgray;
+  justify-content: space-between;
+}
+
+/*------> footer <------*/
+
+/* Slider */
+
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-dots li button:before {
+  color: gray;
+}
+
+.slick-dots li.slick-active button:before {
+  color: black;
+}
+
+.slider-image {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  width: auto;
+  height: auto;
 }
