@@ -30,8 +30,8 @@ function Footer() {
                     </div>
 
                     <div>
-                        <p>Telephone :</p>
-                        <p>(313) 235 634 846 534</p>
+                        <p>Mobile :</p>
+                        <p>(+91) 9798425043</p>
                     </div>
 
                     <div>
