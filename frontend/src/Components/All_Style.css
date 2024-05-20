@@ -294,3 +294,41 @@ html {
   width: auto;
   height: auto;
 }
+
+/* About */
+
+.about-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.about-header {
+  text-align: center;
+}
+
+.founder-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  text-align: left;
+}
+
+.about-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
