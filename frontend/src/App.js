@@ -9,8 +9,11 @@ function App() {
   return (
     <div className="App">
       <NAVBAR/>
-      <h1>Archer Foundation</h1>
       <Home/>
+      <div>
+        <br /><br /><br /><br /><br /><br /><br /><br />
+      </div>
+      <h1 style={{fontFamily: "Times-New-Roman", fontSize: "4.5rem"}}>Archer Foundation</h1>
       <ImageSlider/>
       <Stats/>
       <Footer/>

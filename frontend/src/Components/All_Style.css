@@ -111,32 +111,24 @@ html {
 }
 
 .nav {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
   width: 100%;
-  display: sticky;
+  height: 10rem;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  position: sticky;
+  position: fixed;
   top: 0;
   background-color: white;
 }
 
 .nav > div:nth-child(1) {
-  width: 15%;
-  padding-left: 10px;
-}
-
-.nav > div:nth-child(1) a {
-  color: black;
-  text-decoration: none;
-}
-
-.nav > div:nth-child(1) h1 {
-  font-size: 430%;
-  margin: auto;
-  font-family: "Bruno Ace SC", cursive;
-  cursor: pointer;
+  width: 30%;
+  padding-left: auto;
 }
 
 .nav > div:nth-child(2) {
@@ -274,12 +266,12 @@ html {
 /* Slider */
 
 .slider-container {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  margin: auto;
+  position: inherit;
 }
 
 .slick-slide {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -293,6 +285,9 @@ html {
 }
 
 .slider-image {
+  margin-left: 9rem;
+  justify-content: center;
+  align-items: center;
   max-width: 100%;
   max-height: 300px;
   object-fit: contain;

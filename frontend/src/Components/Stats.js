@@ -1,23 +1,23 @@
 import React from 'react';
-import Img1 from '../Assets/images.png';
 import './All_Style.css';
+import Img1 from '../Assets/images.png';
 
 const Stats = () => {
   const stats = [
     {
-      image: {Img1}, // Replace with the actual path to your image
+      image: Img1, 
       value: '3',
       suffix: 'rd',
       description: 'Amongst all Government and Private Universities in India',
     },
     {
-      image: {Img1}, // Replace with the actual path to your image
+      image: Img1, // Replace with the actual path to your image
       value: '25',
       suffix: 'th',
       description: 'Among top Universities of India',
     },
     {
-      image: {Img1}, // Replace with the actual path to your image
+      image: Img1, // Replace with the actual path to your image
       value: '38',
       suffix: 'th',
       description: 'Amongst all Government and Private Universities in India',

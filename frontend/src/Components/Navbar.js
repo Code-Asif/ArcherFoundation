@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './All_Style.css';
+import Img1 from '../Assets/images.png';
 
 function Navbar() {
     const [showNavbar, setShowNavbar] = useState(true); // State variable to track navbar visibility
@@ -7,7 +8,7 @@ function Navbar() {
     return (
         <div className="nav" style={{ display: showNavbar ? 'flex' : 'none' }}>
             <div>
-                <a href="index.html"><h1>Archer</h1></a>
+                <a href="index.html"><img src={Img1} alt='Logo'></img></a>
             </div>
 
             <div>
