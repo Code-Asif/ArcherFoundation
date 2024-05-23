@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import About from './Components/About';
 import TestimonialPage from './Components/TestimonialPage';
 import Type from './Components/Type';
+import RegistrationForm from './Components/RegistrationForm';
 
 function App() {
   const [showNavbar] = useState(true);
@@ -29,7 +30,7 @@ function App() {
             <Link className='Ancher' to="/testimonialpage">Testimonial</Link>
             <Link className='Ancher' to="/about">About</Link>
           </div>
-          <Link to="/apply"><button id="register">Apply Now</button></Link>
+          <Link to="/registrationform"><button id="register">Apply Now</button></Link>
         </div>
 
         <Routes>
@@ -38,7 +39,9 @@ function App() {
           <Route path="/admissions" element={<div>Admissions Page</div>} />
           <Route path="/testimonialpage" element={<TestimonialPage />} />
           <Route path="/about" element={<About />} />
-          <Route path="/apply" element={<div>Apply Now Page</div>} />
+          <Route path="/registrationform" element={<main>
+            <RegistrationForm />
+          </main>} />
         </Routes>
       </Router>
       <div>
