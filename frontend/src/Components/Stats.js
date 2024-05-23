@@ -8,19 +8,19 @@ const Stats = () => {
       image: Img1, 
       value: '3',
       suffix: 'rd',
-      description: 'Amongst all Government and Private Universities in India',
+      description: 'Amongst all Government and Private KYP center in Bihar',
     },
     {
-      image: Img1, // Replace with the actual path to your image
-      value: '25',
-      suffix: 'th',
-      description: 'Among top Universities of India',
+      image: Img1, 
+      value: '2500',
+      suffix: '+',
+      description: 'Students completed their technical courses',
     },
     {
-      image: Img1, // Replace with the actual path to your image
-      value: '38',
-      suffix: 'th',
-      description: 'Amongst all Government and Private Universities in India',
+      image: Img1, 
+      value: '100',
+      suffix: '+',
+      description: 'Companies visit our KYP center',
     },
   ];
 

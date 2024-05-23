@@ -286,11 +286,8 @@ html {
 
 .slider-image {
   margin-left: 9rem;
-  justify-content: center;
-  align-items: center;
   max-width: 100%;
   max-height: 300px;
-  object-fit: contain;
   width: auto;
   height: auto;
 }
