@@ -10,17 +10,17 @@ import kshijit from '../Assets/kshijit.png';
 const testimonials = [
   {
     name: 'Asif Alam',
-    text: 'This product is amazing! Highly recommend to everyone.',
+    text: 'This Institute is amazing! Highly recommend to everyone.',
     image: Asif
   },
   {
     name: 'Kamran Alam',
-    text: 'Exceptional quality and fantastic customer service.',
+    text: 'Exceptional quality and fantastic teacher service.',
     image: kamran
   },
   {
     name: 'Kshijit Verma',
-    text: 'A game-changer for our business. Five stars!',
+    text: 'A game-changer for our career. Five stars!',
     image: kshijit
   },
 ];

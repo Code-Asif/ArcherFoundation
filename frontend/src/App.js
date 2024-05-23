@@ -10,10 +10,11 @@ import Stats from './Components/Stats';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import About from './Components/About';
 import TestimonialPage from './Components/TestimonialPage';
+import Type from './Components/Type';
 
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);
-  
+
   return (
     <div className="App">
       <Router>
@@ -30,13 +31,13 @@ function App() {
           </div>
           <Link to="/apply"><button id="register">Apply Now</button></Link>
         </div>
-        
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/programs" element={<div>Programs Page</div>} />
           <Route path="/admissions" element={<div>Admissions Page</div>} />
-          <Route path="/testimonialpage" element={<TestimonialPage/>} />
-          <Route path="/about" element={<About/>} />
+          <Route path="/testimonialpage" element={<TestimonialPage />} />
+          <Route path="/about" element={<About />} />
           <Route path="/apply" element={<div>Apply Now Page</div>} />
         </Routes>
       </Router>
@@ -44,7 +45,10 @@ function App() {
       <div>
         <br /><br /><br /><br /><br /><br /><br /><br />
       </div>
-      <h1 style={{ fontFamily: "Times-New-Roman", fontSize: "4.5rem" }}>Archer Foundation</h1>
+      <h1 className='Heading'>Archer Foundation</h1>
+      <div className='type'>
+        <Type />
+      </div>
       <hr />
       <br />
       <ImageSlider />
@@ -53,7 +57,7 @@ function App() {
       <Stats />
       <hr />
       <br /><br />
-      <Companies/>
+      <Companies />
       <hr />
       <br /><br />
       <Footer />
