@@ -20,7 +20,7 @@ const RegistrationForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         const { name, email, phone, course } = formData;
-        var phonenumber = "+918743980102";
+        var phonenumber = "+917485060789";
 
         var url = "https://wa.me/" + phonenumber + "?text="
             + "Name : " + name + "%0a"

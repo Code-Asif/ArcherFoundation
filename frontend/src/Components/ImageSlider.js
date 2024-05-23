@@ -4,7 +4,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Img1 from '../Assets/bsdm.png';
 import Img2 from '../Assets/kyp.png';
-import Img3 from '../Assets/archer_logo.png';
 import './All_Style.css';
 
 const ImageSlider = () => {
@@ -26,7 +25,7 @@ const ImageSlider = () => {
                 <img src={Img2} alt="Slide 2" className="slider-image" />
               </div>
               <div className="slide">
-                <img src={Img3} alt="Slide 3" className="slider-image" />
+                <img src={Img1} alt="Slide 3" className="slider-image" />
               </div>
               <div className="slide">
                 <img src={Img2} alt="Slide 3" className="slider-image" />
