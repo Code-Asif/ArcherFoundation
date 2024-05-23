@@ -6,8 +6,8 @@ const Stats = () => {
   const stats = [
     {
       image: Img1, 
-      value: '3',
-      suffix: 'rd',
+      value: '5',
+      suffix: 'th',
       description: 'Amongst all Government and Private KYP center in Bihar',
     },
     {
