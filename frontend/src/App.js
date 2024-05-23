@@ -10,8 +10,15 @@ import Stats from './Components/Stats';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import About from './Components/About';
 
+import CardSlider from './Components/CardSlider';
+
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);
+  const cards = [
+    <div className="card-content"><img src={Img1} alt=''></img></div>,
+    <div className="card-content"><img src={Img1} alt=''></img></div>,
+    <div className="card-content"><img src={Img1} alt=''></img></div>,
+  ];
   
   return (
     <div className="App">
@@ -53,6 +60,9 @@ function App() {
       <hr />
       <br /><br />
       <Companies/>
+      <hr />
+      <br /><br />
+      <CardSlider cards={cards} />
       <hr />
       <br /><br />
       <Footer />
