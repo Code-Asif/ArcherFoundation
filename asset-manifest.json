@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/ArcherFoundation/static/css/main.a220a17e.css",
-    "main.js": "/ArcherFoundation/static/js/main.8d1f591f.js",
+    "main.css": "/ArcherFoundation/static/css/main.e06705f3.css",
+    "main.js": "/ArcherFoundation/static/js/main.3d90d902.js",
     "static/js/453.8ab44547.chunk.js": "/ArcherFoundation/static/js/453.8ab44547.chunk.js",
     "static/media/Founder.png": "/ArcherFoundation/static/media/Founder.362d5ce75a6ea5fe302b.png",
+    "static/media/kamran.jpg": "/ArcherFoundation/static/media/kamran.e3a82f827da36e653603.jpg",
     "static/media/kyp.png": "/ArcherFoundation/static/media/kyp.680fa0278458b02a5c7d.png",
     "static/media/companies.jpg": "/ArcherFoundation/static/media/companies.bae13f04107a9c9afa47.jpg",
+    "static/media/kshijit.png": "/ArcherFoundation/static/media/kshijit.b92bda464e1b2fd4441c.png",
     "static/media/bsdm.png": "/ArcherFoundation/static/media/bsdm.833a4ac20ae5e4faa5fd.png",
     "static/media/archer_logo.png": "/ArcherFoundation/static/media/archer_logo.05d39a488219c9b6117f.png",
+    "static/media/asif.jpeg": "/ArcherFoundation/static/media/asif.35bbcf78b1bf554ff6ab.jpeg",
     "static/media/images.png": "/ArcherFoundation/static/media/images.d87a9557dde1ac3ed05f.png",
     "static/media/slick.svg": "/ArcherFoundation/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/ArcherFoundation/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/ArcherFoundation/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ArcherFoundation/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ArcherFoundation/index.html",
-    "main.a220a17e.css.map": "/ArcherFoundation/static/css/main.a220a17e.css.map",
-    "main.8d1f591f.js.map": "/ArcherFoundation/static/js/main.8d1f591f.js.map",
+    "main.e06705f3.css.map": "/ArcherFoundation/static/css/main.e06705f3.css.map",
+    "main.3d90d902.js.map": "/ArcherFoundation/static/js/main.3d90d902.js.map",
     "453.8ab44547.chunk.js.map": "/ArcherFoundation/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a220a17e.css",
-    "static/js/main.8d1f591f.js"
+    "static/css/main.e06705f3.css",
+    "static/js/main.3d90d902.js"
   ]
 }
