@@ -1,12 +1,11 @@
 import React from 'react';
-import './All_Style.css';
 
-function Home() {
+const Home = ()=>{
     return (
-        <div>
-            
+        <div className="home">
+
         </div>
-    );
+    )
 }
 
 export default Home;

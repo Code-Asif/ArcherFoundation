@@ -10,7 +10,7 @@ html {
   }
   .nav {
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
   }
   .nav > div:nth-child(1) {
     font-size: 20px;
@@ -75,12 +75,16 @@ html {
 
 @media screen and (min-width: 200px) and (max-width: 770px) {
     .nav > div:nth-child(1) {
-        display: none; /* Hide the first div (logo) */
+      justify-content: left;
+        width: 1rem;
+        width: min-content;
       }
 
     .nav > div:nth-child(2) {
-        width: 100%; /* Expand the second div (links) */
-        justify-content: space-evenly; /* Adjust alignment */
+        margin-top: 14rem;
+        width: 100%; 
+        font-size: 1.2rem;
+        justify-content: center;
     }
 
     .nav button {
@@ -93,27 +97,10 @@ html {
 
 /* Navbar */
 
-.Ancher{
-  margin-right: 1rem;
-}
-#user {
-  width: 80%;
-  padding: 20px;
-}
-
-#user img {
-  width: 50%;
-}
-
-#username,
-#email {
-  flex-direction: column;
-}
-
 .nav {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   width: 100%;
   height: 10rem;
   display: flex;
@@ -127,15 +114,15 @@ html {
 }
 
 .nav > div:nth-child(1) {
-  width: 30%;
+  width: 25%;
   padding-left: auto;
 }
 
 .nav > div:nth-child(2) {
-  width: 40%;
+  width: 45%;
   display: flex;
   justify-content: right;
-  gap: 10px;
+  gap: 30px;
 }
 
 .nav > div:nth-child(2) > a {
@@ -173,7 +160,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
   background-color: #f9f9f9;
 }
 
@@ -187,20 +174,25 @@ html {
   margin: 10px;
 }
 
+.stats-card:hover{
+  transform: scale(1.1);
+  box-shadow: #343a40;
+}
+
 .stats-image {
-  width: 80px;
+  width: 100px;
   height: auto;
   margin-bottom: 20px;
 }
 
 .stats-value {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
-  color: #343a40;
+  color: #080808;
 }
 
 .stats-value sup {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   vertical-align: super;
 }
 
@@ -210,7 +202,7 @@ html {
 }
 
 .stats-description {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #6c757d;
 }
 
@@ -288,8 +280,6 @@ html {
   margin-left: 9rem;
   max-width: 100%;
   max-height: 300px;
-  width: auto;
-  height: auto;
 }
 
 /* About */

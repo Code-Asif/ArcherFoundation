@@ -4,6 +4,7 @@ import Img1 from './Assets/images.png';
 import './Components/All_Style.css';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
+import Companies from './Components/Placement';
 import ImageSlider from './Components/ImageSlider';
 import Stats from './Components/Stats';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
@@ -38,13 +39,22 @@ function App() {
           <Route path="/apply" element={<div>Apply Now Page</div>} />
         </Routes>
       </Router>
-      
+      <hr />
       <div>
         <br /><br /><br /><br /><br /><br /><br /><br />
       </div>
       <h1 style={{ fontFamily: "Times-New-Roman", fontSize: "4.5rem" }}>Archer Foundation</h1>
+      <hr />
+      <br />
       <ImageSlider />
+      <hr />
+      <br /><br />
       <Stats />
+      <hr />
+      <br /><br />
+      <Companies/>
+      <hr />
+      <br /><br />
       <Footer />
     </div>
   );
