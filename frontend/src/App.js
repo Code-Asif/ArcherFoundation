@@ -9,16 +9,10 @@ import ImageSlider from './Components/ImageSlider';
 import Stats from './Components/Stats';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import About from './Components/About';
-
-import CardSlider from './Components/CardSlider';
+import TestimonialPage from './Components/TestimonialPage';
 
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);
-  const cards = [
-    <div className="card-content"><img src={Img1} alt=''></img></div>,
-    <div className="card-content"><img src={Img1} alt=''></img></div>,
-    <div className="card-content"><img src={Img1} alt=''></img></div>,
-  ];
   
   return (
     <div className="App">
@@ -31,7 +25,7 @@ function App() {
             <Link className='Ancher' to="/">Home</Link>
             <Link className='Ancher' to="/programs">Programs</Link>
             <Link className='Ancher' to="/admissions">Admissions</Link>
-            <Link className='Ancher' to="/testimonial">Testimonial</Link>
+            <Link className='Ancher' to="/testimonialpage">Testimonial</Link>
             <Link className='Ancher' to="/about">About</Link>
           </div>
           <Link to="/apply"><button id="register">Apply Now</button></Link>
@@ -41,7 +35,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/programs" element={<div>Programs Page</div>} />
           <Route path="/admissions" element={<div>Admissions Page</div>} />
-          <Route path="/testimonial" element={<div>Testimonial Page</div>} />
+          <Route path="/testimonialpage" element={<TestimonialPage/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/apply" element={<div>Apply Now Page</div>} />
         </Routes>
@@ -60,9 +54,6 @@ function App() {
       <hr />
       <br /><br />
       <Companies/>
-      <hr />
-      <br /><br />
-      <CardSlider cards={cards} />
       <hr />
       <br /><br />
       <Footer />
