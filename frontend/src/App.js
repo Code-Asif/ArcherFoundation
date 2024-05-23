@@ -13,7 +13,7 @@ import TestimonialPage from './Components/TestimonialPage';
 import Type from './Components/Type';
 
 function App() {
-  const [showNavbar, setShowNavbar] = useState(true);
+  const [showNavbar] = useState(true);
 
   return (
     <div className="App">
@@ -41,7 +41,6 @@ function App() {
           <Route path="/apply" element={<div>Apply Now Page</div>} />
         </Routes>
       </Router>
-      <hr />
       <div>
         <br /><br /><br /><br /><br /><br /><br /><br />
       </div>

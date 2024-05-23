@@ -23,6 +23,36 @@ const testimonials = [
     text: 'A game-changer for our career. Five stars!',
     image: kshijit
   },
+  {
+    name: 'Asif Alam',
+    text: 'This Institute is amazing! Highly recommend to everyone.',
+    image: Asif
+  },
+  {
+    name: 'Kamran Alam',
+    text: 'Exceptional quality and fantastic teacher service.',
+    image: kamran
+  },
+  {
+    name: 'Kshijit Verma',
+    text: 'A game-changer for our career. Five stars!',
+    image: kshijit
+  },
+  {
+    name: 'Asif Alam',
+    text: 'This Institute is amazing! Highly recommend to everyone.',
+    image: Asif
+  },
+  {
+    name: 'Kamran Alam',
+    text: 'Exceptional quality and fantastic teacher service.',
+    image: kamran
+  },
+  {
+    name: 'Kshijit Verma',
+    text: 'A game-changer for our career. Five stars!',
+    image: kshijit
+  },
 ];
 
 const TestimonialPage = () => {

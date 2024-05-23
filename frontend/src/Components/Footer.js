@@ -1,4 +1,5 @@
 import React from 'react';
+import img1 from '../Assets/qr.png';
 import './All_Style.css';
 
 function Footer() {
@@ -6,14 +7,17 @@ function Footer() {
         <div class="footer">
             <div>
                 <div>
-                    <h1>Contact</h1>
+                    {/* <h1>Contact</h1>
                     <p>Never Want To Miss A Camp Spot Ever</p>
                     <div>
                         <p>Online Course Catalogue</p>
                         <p>Book a Camp</p>
                         <p>Camp locations</p>
                         <p>Summer camps</p>
-                    </div>
+                    </div> */}
+
+                    <img className='qr' src={img1} alt="qr" />
+
                 </div>
 
                 <div id="line2"></div>
@@ -31,7 +35,7 @@ function Footer() {
 
                     <div>
                         <p>Mobile :</p>
-                        <p>(+91) 9798425043</p>
+                        <p>(+91) 74850 60789</p>
                     </div>
 
                     <div>

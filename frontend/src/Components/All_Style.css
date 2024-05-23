@@ -213,7 +213,6 @@ html {
   color: #6c757d;
 }
 
-
 /* Footer */
 .footer {
   background-color: #fffaf5;
@@ -382,4 +381,9 @@ html {
   text-align: left;
   margin-top: -2rem;
   padding-bottom: 5rem;
+}
+
+.qr{
+  max-width: 20rem;
+  border: #080808 solid 2px;
 }
