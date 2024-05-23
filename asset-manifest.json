@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Code-Asif/ArcherFoundation/static/css/main.40ec2c1d.css",
-    "main.js": "/Code-Asif/ArcherFoundation/static/js/main.70316f0a.js",
-    "static/js/453.8ab44547.chunk.js": "/Code-Asif/ArcherFoundation/static/js/453.8ab44547.chunk.js",
-    "static/media/Founder.png": "/Code-Asif/ArcherFoundation/static/media/Founder.362d5ce75a6ea5fe302b.png",
-    "static/media/kyp.png": "/Code-Asif/ArcherFoundation/static/media/kyp.680fa0278458b02a5c7d.png",
-    "static/media/bsdm.png": "/Code-Asif/ArcherFoundation/static/media/bsdm.833a4ac20ae5e4faa5fd.png",
-    "static/media/archer_logo.png": "/Code-Asif/ArcherFoundation/static/media/archer_logo.05d39a488219c9b6117f.png",
-    "static/media/images.png": "/Code-Asif/ArcherFoundation/static/media/images.d87a9557dde1ac3ed05f.png",
-    "static/media/slick.svg": "/Code-Asif/ArcherFoundation/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/Code-Asif/ArcherFoundation/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/Code-Asif/ArcherFoundation/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/Code-Asif/ArcherFoundation/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/Code-Asif/ArcherFoundation/index.html",
-    "main.40ec2c1d.css.map": "/Code-Asif/ArcherFoundation/static/css/main.40ec2c1d.css.map",
-    "main.70316f0a.js.map": "/Code-Asif/ArcherFoundation/static/js/main.70316f0a.js.map",
-    "453.8ab44547.chunk.js.map": "/Code-Asif/ArcherFoundation/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "/ArcherFoundation/static/css/main.7dd50a44.css",
+    "main.js": "/ArcherFoundation/static/js/main.ba718107.js",
+    "static/js/453.8ab44547.chunk.js": "/ArcherFoundation/static/js/453.8ab44547.chunk.js",
+    "static/media/Founder.png": "/ArcherFoundation/static/media/Founder.362d5ce75a6ea5fe302b.png",
+    "static/media/kyp.png": "/ArcherFoundation/static/media/kyp.680fa0278458b02a5c7d.png",
+    "static/media/bsdm.png": "/ArcherFoundation/static/media/bsdm.833a4ac20ae5e4faa5fd.png",
+    "static/media/archer_logo.png": "/ArcherFoundation/static/media/archer_logo.05d39a488219c9b6117f.png",
+    "static/media/images.png": "/ArcherFoundation/static/media/images.d87a9557dde1ac3ed05f.png",
+    "static/media/slick.svg": "/ArcherFoundation/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/ArcherFoundation/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/ArcherFoundation/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/ArcherFoundation/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/ArcherFoundation/index.html",
+    "main.7dd50a44.css.map": "/ArcherFoundation/static/css/main.7dd50a44.css.map",
+    "main.ba718107.js.map": "/ArcherFoundation/static/js/main.ba718107.js.map",
+    "453.8ab44547.chunk.js.map": "/ArcherFoundation/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40ec2c1d.css",
-    "static/js/main.70316f0a.js"
+    "static/css/main.7dd50a44.css",
+    "static/js/main.ba718107.js"
   ]
 }
