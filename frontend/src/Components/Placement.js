@@ -4,7 +4,7 @@ import img1 from '../Assets/companies.jpg'
 
 function Placement() {
     return (
-        <div>
+        <div className='companies'>
             <img src={img1} alt="Companies" />
         </div>
     );
