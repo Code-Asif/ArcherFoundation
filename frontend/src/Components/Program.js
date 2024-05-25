@@ -2,33 +2,11 @@ import React from 'react';
 
 const Program = () => {
     return (
-        <div>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
-            <h1>Program</h1>
+        <div className='Program'>
+            <h1>Programs Offered by Archer Foundation</h1>
+            <div className='Space'>
+
+            </div>
 
         </div>
     );

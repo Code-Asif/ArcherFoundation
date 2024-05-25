@@ -22,13 +22,13 @@ function App() {
     <div className="App">
       <Router>
         <div className="nav" style={{ display: showNavbar ? 'flex' : 'none' }}>
-          <div>
+          <div className='Logo'>
             <Link to="/"><img src={Img1} alt='Logo' /></Link>
           </div>
           <div>
             <Link className='Ancher' to="/">Home</Link>
-            <Link className='Ancher' to="/program">Programs</Link>
-            <Link className='Ancher' to="/admission">Admissions</Link>
+            <Link className='Ancher' to="/program">Program</Link>
+            <Link className='Ancher' to="/admission">Admission</Link>
             <Link className='Ancher' to="/testimonialpage">Testimonial</Link>
             <Link className='Ancher' to="/about">About</Link>
           </div>
@@ -37,8 +37,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/programs" element={<Program/>} />
-          <Route path="/admissions" element={<Admission/>} />
+          <Route path="/program" element={<Program/>} />
+          <Route path="/admission" element={<Admission/>} />
           <Route path="/testimonialpage" element={<TestimonialPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/registrationform" element={<main>
@@ -47,7 +47,7 @@ function App() {
         </Routes>
       </Router>
       <div>
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        
       </div>
       
       <h1 className='Heading'>Archer Foundation</h1>

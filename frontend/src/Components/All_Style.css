@@ -77,18 +77,12 @@ html {
     .nav > div:nth-child(1) {
       justify-content: left;
         width: 1rem;
-        width: min-content;
       }
 
     .nav > div:nth-child(2) {
         margin-top: 14rem;
         width: 100%; 
-        font-size: 1.2rem;
-        justify-content: center;
-    }
-
-    .nav button {
-        display: none; /* Hide the registration button */
+        font-size: 1.3rem;
     }
 }
 
@@ -105,30 +99,26 @@ html {
 /* Navbar */
 
 .nav {
-  margin-top: .1rem;
-  font-size: 1.5rem;
+  margin-top: 0rem;
+  font-size: 1.8rem;
   width: 100%;
-  height: 12rem;
-  display: flex;
+  height: 13rem;
   justify-content: center;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.02) 0rem .1rem .3rem 0rem,
-    rgba(27, 31, 35, 0.15) 0rem 0rem 0rem 1rem;
-  position: fixed;
-  top: 0;
+  position: sticky;
   background-color: white;
 }
 
 .nav > div:nth-child(1) {
-  width: 25%;
-  padding-left: auto;
+  width: 30%;
 }
 
 .nav > div:nth-child(2) {
-  width: 45%;
+  font: 1.3rem;
+  width: 55%;
   display: flex;
-  justify-content: right;
-  gap: 3rem;
+  justify-content: center;
+  gap: 2.5rem;
 }
 
 .nav > div:nth-child(2) > a {
@@ -139,16 +129,18 @@ html {
 .nav > div:nth-child(2) > a:hover {
   color: red;
   font-weight: bold;
+  font-size: 1.9rem;
 }
 
 .nav button {
   width: 6rem;
   height: 6rem;
-  margin: 10rem;
+  margin-left: .3rem;
+  margin-right: .3rem;
   border: none;
   border-radius: 50%;
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   background-color: black;
   font-size: 1rem;
   cursor: pointer;
@@ -277,9 +269,8 @@ html {
 
 .about-container {
   max-width: 80rem;
-  margin: 5rem auto;
+  margin: auto;
   background: #fff;
-  padding: 2rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
 }
@@ -432,4 +423,17 @@ html {
 .image{
   max-width: 100%;
   height: auto;
+}
+
+.Space{
+  margin: 8rem;
+  padding: 1.3rem;
+  padding-bottom: 20rem;
+}
+
+.Program{
+  font-family: 'Times New Roman', Times, serif;
+}
+.Program h1{
+  font-size: 3rem;
 }

@@ -58,7 +58,7 @@ const testimonials = [
 const TestimonialPage = () => {
   return (
     <div className="testimonial-page">
-      <h2 className="page-title">What Our Customers Say</h2>
+      <h2 className="page-title">What Our Students Say</h2>
       <div className="testimonial-list">
         {testimonials.map((testimonial, index) => (
           <Testimonial

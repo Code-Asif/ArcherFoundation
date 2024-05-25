@@ -5,7 +5,6 @@ import founderImage from '../Assets/Founder.png';
 const About = () => {
     return (
         <div className="about-container">
-            <br /><br /><br /><br />
             <div className="about-header">
                 <img src={founderImage} alt="Founder" className="founder-image" />
                 <h1>About Our Founder</h1>

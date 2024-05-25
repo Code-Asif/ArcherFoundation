@@ -34,7 +34,7 @@ const RegistrationForm = () => {
     };
 
     return (
-        <form style={{ marginTop: "12rem" }} className="registration-form" onSubmit={handleSubmit}>
+        <form style={{ marginTop: "3rem", marginBottom: "25rem" }} className="registration-form" onSubmit={handleSubmit}>
             <h2 style={{ fontFamily: "Times-New-Roman" }} >Join Our Institute</h2>
             <label>
                 Name:
