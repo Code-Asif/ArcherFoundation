@@ -54,7 +54,7 @@ function Footer() {
                 <p>@2024 Archer. All rights reserved.</p>
                 <p>Terms of Use</p>
                 <p>Privacy Policy</p>
-                <p>Design By <strong>Asif</strong></p>
+                <p>Design & Develop By<a href='https://www.linkedin.com/in/asifalam26/'><strong style={{fontSize: "1.5rem", textDecoration: "none"}} > Asif</strong></a></p>
             </div>
         </div>
     );

@@ -12,6 +12,8 @@ import About from './Components/About';
 import TestimonialPage from './Components/TestimonialPage';
 import Type from './Components/Type';
 import RegistrationForm from './Components/RegistrationForm';
+import Admission from './Components/Admission';
+import Program from './Components/Program';
 
 function App() {
   const [showNavbar] = useState(true);
@@ -25,8 +27,8 @@ function App() {
           </div>
           <div>
             <Link className='Ancher' to="/">Home</Link>
-            <Link className='Ancher' to="/programs">Programs</Link>
-            <Link className='Ancher' to="/admissions">Admissions</Link>
+            <Link className='Ancher' to="/program">Programs</Link>
+            <Link className='Ancher' to="/admission">Admissions</Link>
             <Link className='Ancher' to="/testimonialpage">Testimonial</Link>
             <Link className='Ancher' to="/about">About</Link>
           </div>
@@ -35,8 +37,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/programs" element={<div>Programs Page</div>} />
-          <Route path="/admissions" element={<div>Admissions Page</div>} />
+          <Route path="/programs" element={<Program/>} />
+          <Route path="/admissions" element={<Admission/>} />
           <Route path="/testimonialpage" element={<TestimonialPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/registrationform" element={<main>
