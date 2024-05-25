@@ -47,8 +47,9 @@ function App() {
         </Routes>
       </Router>
       <div>
-        <br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       </div>
+      
       <h1 className='Heading'>Archer Foundation</h1>
       <div className='type'>
         <Type />
