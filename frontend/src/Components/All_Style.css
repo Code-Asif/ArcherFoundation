@@ -437,9 +437,44 @@ html {
   padding-bottom: 20rem;
 }
 
-.Program{
+/* .Program{
   font-family: 'Times New Roman', Times, serif;
 }
 .Program h1{
   font-size: 3rem;
+} */
+
+/* Programs.css */
+.ProgramTable {
+  width: 90%;
+  margin-bottom: 1rem;
+  border: #060505 solid .1rem;
+  margin: 2rem;
+}
+
+.ProgramTable td {
+  border: .1rem solid #ddd;
+  padding: .8rem;
+}
+
+.ProgramImg {
+  width: 20rem;
+}
+
+.ProgramTable tr:nth-child(even) {
+  background-color: #bab8b8;
+}
+
+.ProgramTable tr:hover {
+  background-color: #f9bcbc;
+}
+
+.ProgramTable td:first-child {
+  width: 20rem;
+  text-align: right;
+}
+
+.ProgramTable td:nth-child(2) {
+  text-align: left;
+  font-weight: bold;
 }
