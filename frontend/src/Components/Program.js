@@ -7,6 +7,16 @@ const Program = () => {
             <div className='Space'>
 
             </div>
+            <table>
+                <tr>
+                    <td>Hello</td>
+                    <td>Hello</td>
+                </tr>
+                <tr>
+                    <td>Hello</td>
+                    <td>Hello</td>
+                </tr>
+            </table>
 
         </div>
     );
