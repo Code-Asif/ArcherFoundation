@@ -478,3 +478,18 @@ html {
   text-align: left;
   font-weight: bold;
 }
+
+/* Notes */
+.Notes{
+  text-align: left;
+  margin: 5rem;
+}
+
+.Notes h1{
+  font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Notes p{
+  font-size: 1.5rem;
+}

@@ -14,9 +14,14 @@ import Type from './Components/Type';
 import RegistrationForm from './Components/RegistrationForm';
 import Admission from './Components/Admission';
 import Program from './Components/Program';
+import Notes from './Components/Notes';
 
 function App() {
   const [showNavbar] = useState(true);
+
+  const navigateToNotes = () => {
+    window.location.href = '/notes';
+  }
 
   return (
     <div className="App">
@@ -41,6 +46,7 @@ function App() {
           <Route path="/admission" element={<Admission/>} />
           <Route path="/testimonialpage" element={<TestimonialPage />} />
           <Route path="/about" element={<About />} />
+          <Route path="/notes" element={<Notes />} />
           <Route path="/registrationform" element={<main>
             <RegistrationForm />
           </main>} />
@@ -60,6 +66,10 @@ function App() {
       <hr />
       <br /><br />
       <Stats />
+      <hr />
+      <br /><br />
+      <h1 style={{textAlign: "left", marginLeft: "3.5rem"}}>Student Notes Section</h1>
+      <button onClick={navigateToNotes}>Student Notes</button>
       <hr />
       <br /><br />
       <Companies />
